@@ -5,12 +5,12 @@
 }
 body {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 150px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding-top: 120px;
   padding-left: 10px;
   padding-right: 10px;
-
+  border: 1px solid red;
   background-color: cadetblue;
 }
 .header {
@@ -28,11 +28,11 @@ body {
 }
 .header__logo {
   border: 1px solid red;
-  width: 10%;
+  width: 8%;
 }
 .header__titulo {
   border: 1px solid red;
-  width: 40%;
+  width: 42%;
 }
 .header__nav {
   border: 1px solid red;
