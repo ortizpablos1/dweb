@@ -1,5 +1,5 @@
 <template>
-    <div class="contaner-fluid">
+    <div class="contaner">
         <header>
       <h1 class="text-center">Directivas de VueJs</h1>
       <p class="border">
@@ -164,7 +164,7 @@
 
 <script>
 export default {
-    name: 'DirectivasComponent',
+    name: 'DirectivasView',
     setup() {
         
     }

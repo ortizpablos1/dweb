@@ -16,9 +16,25 @@
         <artcle class="titulo">
           <h1>Desarrollo Web</h1>
           <h3>Material de didactico dedicado al Diseño y Desarrollo Web.</h3>
-          
-          <!-- <button class="btnexplorar" type="submit" ><router-link to="/about"></router-link>Explorar</button> -->
-          <router-link to="/about" class="btnexplorar">Explorar</router-link>
+          <h4>Temas</h4>
+          <section class="icontem">
+            <div class="conticons">
+              <router-link to="/directivas"><img class="iconos" src="@/assets/img/htmlicon2.svg" alt="HTML"></router-link>
+            </div>
+            <div class="conticons">
+              <router-link to="/directivas"><img class="iconos" src="@/assets/img/cssicon2.svg" alt="CSS"></router-link>
+            </div>
+            <div class="conticons">
+              <router-link to="/directivas"><img class="iconos" src="@/assets/img/jsicon2.svg" alt="Js"></router-link>
+            </div>
+            <div class="conticons">
+              <router-link to="/directivas"><img class="iconos" src="@/assets/img/vueicon2.svg" alt="VueJs"></router-link>
+            </div>
+           
+          </section>
+          <!-- <button class="btnexplorar" type="submit" ><router-link to="/about"></router-link>Explorar</button>
+          <router-link to="/about" class="btnexplorar" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Explorar</router-link>
+           -->
         </artcle>
         <artcle class="temas">
           <img class="temaimg" src="@/assets/img/tema.svg" alt="Tema">
@@ -31,6 +47,8 @@
     <TemasCompoment/>
     
   </div>
+
+  
 </template>
 
 <script>
@@ -85,7 +103,8 @@ li{
 .ingreso{
   background-color: #39A900;
   padding: 10px;
-  font-size: 20px;
+  font-size: 15px;
+  border-radius: 5px;
 } 
 .ingreso:hover{
  color: white;
@@ -124,20 +143,39 @@ h3{
   
 }
 .btnexplorar{
-  border:0;
-  margin-top: 120px;
+  margin-top: 5px;
   border-radius: 0;
   font-size: 40px;
   background-color: #39A900;
   padding: 8px;
   text-decoration: none;
-  color: black
+  color: black;
+  border-radius: 5px;
   
 }
 .btnexplorar:hover{
   color: white;
   background-color: #82DEF0;
   padding: 15px;
+}
+.icontem{
+  margin-top: 5px;
+  border: 2px solid rgba(153, 152, 152, 0.253);
+  border-radius: 5px;
+  display: flex;
+}
+.conticons{
+  width: 100%;
+}
+.iconos{
+  max-width: 100%;
+  width: 90%;
+  margin: 5px;
+}
+.iconos:hover{
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px black;
+  width: 85%;
 }
  footer{
   height: 5vh;
