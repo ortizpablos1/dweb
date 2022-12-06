@@ -15,17 +15,17 @@
       <section class="principal">
         <artcle class="titulo">
           <h1>Desarrollo Web</h1>
-          <h3>Material de didactico dedicado al Diseño y Desarrollo Web.</h3>
+          <h3>Material de Apoyo dedicado al Diseño y Desarrollo Web.</h3>
           <h4>Temas</h4>
           <section class="icontem">
             <div class="conticons">
-              <router-link to="/directivas"><img class="iconos" src="@/assets/img/htmlicon2.svg" alt="HTML"></router-link>
+              <router-link to="/"><img class="iconos" src="@/assets/img/htmlicon2.svg" alt="HTML"></router-link>
             </div>
             <div class="conticons">
-              <router-link to="/directivas"><img class="iconos" src="@/assets/img/cssicon2.svg" alt="CSS"></router-link>
+              <router-link to="/"><img class="iconos" src="@/assets/img/cssicon2.svg" alt="CSS"></router-link>
             </div>
             <div class="conticons">
-              <router-link to="/directivas"><img class="iconos" src="@/assets/img/jsicon2.svg" alt="Js"></router-link>
+              <router-link to="/"><img class="iconos" src="@/assets/img/jsicon2.svg" alt="Js"></router-link>
             </div>
             <div class="conticons">
               <router-link to="/directivas"><img class="iconos" src="@/assets/img/vueicon2.svg" alt="VueJs"></router-link>

@@ -1,5 +1,6 @@
 <template>
     <div class="contaner">
+      <VolverComp class="volver" />
         <header>
       <h1 class="text-center">Directivas de VueJs</h1>
       <p class="border">
@@ -142,34 +143,25 @@
           </td>
           <td></td>
         </tr>
-        <tr>
-          <td colspan="3">
-            Teoria: <br />
-            Data : Billy - Isaac - Hernan dario<br />
-            Methods: felipe -carlos <br />
-            Props: felipe s - jhon hurtado <br />
-            Mounted: Esteba s- jhonatan s - <br />
-            Created: jhoan mu- santiago vial-miguel <br />
-            Computed: wilmer - yeison -karen <br />
-            Whatch: wilosn f -ricardo g <br />
-            Destroyed: Andrea -angie <br />
-            ciclo de vida de vue: fernando g - jhon ri <br />
-            Components: Eleny
-          </td>
-        </tr>
+        
       </tbody>
     </table>
     </div>
 </template>
 
 <script>
+import VolverComp from '@/components/VolverComp.vue';
+
 export default {
-    name: 'DirectivasView',
+    name: "DirectivasView",
     setup() {
-        
-    }
+    },
+    components: { VolverComp }
 }
 </script>
 <style scoped>
+.volver{
+  position:fixed;
 
+}
 </style>
