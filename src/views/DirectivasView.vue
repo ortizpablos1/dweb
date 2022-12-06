@@ -1,5 +1,5 @@
 <template>
-    <div class="contaner">
+    <div class="container-fluid">
       <VolverComp class="volver" />
         <header>
       <h1 class="text-center">Directivas de VueJs</h1>

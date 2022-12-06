@@ -12,6 +12,7 @@ export default {
 <style scoped>
 img{
     width: 50%;
+    color: red;
 }
 </style>
 
